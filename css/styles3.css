@@ -1,0 +1,62 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  background-color: rgb(234, 220, 230);
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#third-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px 50px;
+  max-width: 90vw;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid grey;
+  border-left: none;
+  border-right: none;
+  border-radius: 25px;
+  padding-left: 20px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+}
+
+a {
+  font-size: 20px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+#search-myself {
+  display: flex;
+  justify-content: center;
+}
+
+#link-back {
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  border-radius: 25px;
+  font-size: 15px;
+  padding: 7px 7px;
+}
+
+input {
+  border-radius: 25px;
+  font-size: 15px;
+  padding: 7px 7px;
+  margin-right: 10px;
+}
